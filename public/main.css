@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "riskeys";
+  src: url("./fonts/the-riskeys.otf") format("opentype");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "thonburi";
+  src: url("./fonts/thonburi.ttf") format("truetype");
+  font-style: normal;
+}
+
+h1 {
+  font-family: "riskeys";
+  font-size: 300px;
+}
+
+p {
+  font-family: "thonburi";
+  font-size: 300px;
+}
