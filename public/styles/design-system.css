@@ -1,28 +1,3 @@
-h1 {
-    font-size: 5.625rem;
-    line-height: 5.625rem;
-}
-
-h2 {
-    font-size: 4.375rem;
-    line-height: 4.8125rem;
-}
-
-h3 {
-    font-size: 2.8125rem;
-    line-height: 3.0625rem;
-}
-
-body {
-    font-size: 1rem;
-    line-height: 1.375rem;
-}
-
-sub {
-    font-size: 0.75rem;
-    line-height: 1.03125rem;
-}
-
 :root {
     /* grays */
     --gray-25: #fcfcfd;
@@ -73,6 +48,37 @@ sub {
     --col-5: repeat(5, 1fr);
     --col-3: repeat(3, 1fr);
     --col-2: repeat(2, 1fr);
+}
+h1 {
+    font-size: 5.625rem;
+    line-height: 5.625rem;
+    font-weight: 400;
+    color: var(--gray-900);
+}
+
+h2 {
+    font-size: 4.375rem;
+    line-height: 4.8125rem;
+    font-weight: 400;
+    color: var(--gray-900);
+}
+
+h3 {
+    font-size: 2.8125rem;
+    line-height: 3.0625rem;
+    font-weight: 400;
+    color: var(--gray-900);
+}
+
+body {
+    font-size: 1rem;
+    line-height: 1.375rem;
+    font-family: "thonburi";
+}
+
+sub {
+    font-size: 0.75rem;
+    line-height: 1.03125rem;
 }
 
 .btn {
