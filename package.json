@@ -1,0 +1,23 @@
+{
+    "name": "iuliatoma.github.io",
+    "version": "0.0.0",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview"
+    },
+    "devDependencies": {
+        "autoprefixer": "^10.4.18",
+        "eslint": "^8.57.0",
+        "postcss": "^8.4.35",
+        "postcss-nesting": "^12.1.0",
+        "tailwindcss": "^3.4.1",
+        "vite": "^5.1.4"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/IuliaToma/iuliatoma.github.io.git"
+    }
+}
