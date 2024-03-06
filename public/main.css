@@ -2,18 +2,6 @@
 @import "./styles/design-system.css";
 @import "./styles/animation.css";
 
-@font-face {
-    font-family: "riskeys";
-    src: url("./fonts/the-riskeys.otf") format("opentype");
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "thonburi";
-    src: url("./fonts/thonburi.ttf") format("truetype");
-    font-style: normal;
-}
-
 html {
     box-sizing: border-box;
     font-size: 100%;
@@ -44,4 +32,36 @@ a,
 a:visited(),
 a:active() {
     text-decoration: none;
+}
+
+/**/
+/* .grainy { */
+/*     width: 250px; */
+/*     height: 250px; */
+/*     filter: contrast(170%) brightness(1000%); */
+/*     /* background: linear-gradient(0deg, rgba(0, 0, 255, 1), rgba(0, 0, 0, 0)), */
+*/
+/*     /*     url(./figs/noise.svg); */ */
+/*     /* background: radial-gradient(); */ */
+/*     background: radial-gradient(ellipse, #f698c0, #f698c0), */
+/*         url(./figs/noise.svg); */
+/* } */
+
+.grainy {
+    width: 250px;
+    height: 250px;
+    filter: contrast(280%) brightness(100%);
+    background: radial-gradient(circle at 50% 50%, red, rgba(255, 255, 0, 0));
+}
+
+.g2 {
+    width: 250px;
+    height: 250px;
+    filter: contrast(280%) brightness(100%);
+    background: radial-gradient(
+            circle at 50% 50%,
+            rgba(246, 152, 192, 1),
+            rgba(255, 255, 0, 0)
+        ),
+        url("./figs/noise.svg");
 }
