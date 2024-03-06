@@ -1,12 +1,12 @@
 @font-face {
     font-family: "riskeys";
-    src: url("../fonts/the-riskeys.otf") format("opentype");
+    src: url("../public/fonts/the-riskeys.otf") format("opentype");
     font-style: normal;
 }
 
 @font-face {
     font-family: "thonburi";
-    src: url("../fonts/thonburi.ttf") format("truetype");
+    src: url("../public/fonts/thonburi.ttf") format("truetype");
     font-style: normal;
 }
 
