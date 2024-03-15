@@ -3,6 +3,10 @@ export default {
     content: ["./src/**/*.{html,js}", "./index.html"],
     theme: {
         extend: {
+            fontFamily: {
+                riskeys: "'Riskeys', serif",
+                poppins: "'Poppins', serif",
+            },
             colors: {
                 gray: {
                     25: "#fcfcfd",
