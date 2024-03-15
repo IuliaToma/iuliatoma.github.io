@@ -5,66 +5,91 @@
 }
 
 @font-face {
-    font-family: "thonburi";
-    src: url("../public/fonts/thonburi.ttf") format("truetype");
-    font-style: normal;
+    font-family: "poppins";
+    src: url("../public/fonts/poppins-semibold.ttf") format("truetype");
+    font-style: no\;;
 }
 
-:root {
-    /* grays */
-    --gray-25: #fcfcfd;
-    --gray-50: #f9fafb;
-    --gray-100: #f2f4f7;
-    --gray-200: #eaecf0;
-    --gray-300: #d0d5dd;
-    --gray-400: #98a2b3;
-    --gray-500: #667085;
-    --gray-600: #475467;
-    --gray-700: #344054;
-    --gray-800: #1d2939;
-    --gray-900: #101828;
+@layer base {
+    :root {
+        /* grays */
+        --gray-25: #fcfcfd;
+        --gray-50: #f9fafb;
+        --gray-100: #f2f4f7;
+        --gray-200: #eaecf0;
+        --gray-300: #d0d5dd;
+        --gray-400: #98a2b3;
+        --gray-500: #667085;
+        --gray-600: #475467;
+        --gray-700: #344054;
+        --gray-800: #1d2939;
+        --gray-900: #101828;
 
-    /* spacing */
-    --s1: 0.25rem;
-    --s2: 0.5rem;
-    --s3: 0.75rem;
-    --s4: 1rem;
-    --s5: 1.25rem;
-    --s6: 1.5rem;
-    --s8: 2rem;
-    --s10: 2.5rem;
-    --s12: 3rem;
-    --s16: 4rem;
-    --s20: 5rem;
-    --s24: 6rem;
-    --s32: 8rem;
-    --s40: 10rem;
-    --s48: 12rem;
-    --s56: 14rem;
-    --s64: 16rem;
+        --aviary-blue-100: "#fafcfd";
+        --aviary-blue-200: "#f5f9fa";
+        --aviary-blue-300: "#eaf4f6";
+        --aviary-blue-400: "#dfeef1";
+        --aviary-blue-500: "#d3e8ec";
+        --aviary-blue-600: "#c6e2e7";
+        --aviary-blue-700: "#b8d3d7";
+        --aviary-blue-800: "#99afb3";
+        --aviary-blue-900: "#7d8f92";
+        --aviary-blue-1000: "#596567";
 
-    /* containers */
-    --sm: 40rem;
-    --md: 48rem;
-    --lg: 64rem;
-    --xl: 80rem;
+        --light-dry-lichen-100: "#fbfcfb";
+        --light-dry-lichen-200: "#f7faf8";
+        --light-dry-lichen-300: "#eff4f0";
+        --light-dry-lichen-400: "#e6efe8";
+        --light-dry-lichen-500: "#dde9e0";
+        --light-dry-lichen-600: "#d4e3d8";
+        --light-dry-lichen-700: "#c6d3c9";
+        --light-dry-lichen-800: "#a4b0a7";
+        --light-dry-lichen-900: "#869089";
+        --light-dry-lichen-1000: "#5f6661";
 
-    /* breakpoints */
-    --bp-phone: 375px;
-    --bp-tablet: 768px;
-    --bp-desktop: 1280px;
+        /* spacing */
+        --s1: 0.25rem;
+        --s2: 0.5rem;
+        --s3: 0.75rem;
+        --s4: 1rem;
+        --s5: 1.25rem;
+        --s6: 1.5rem;
+        --s8: 2rem;
+        --s10: 2.5rem;
+        --s12: 3rem;
+        --s16: 4rem;
+        --s20: 5rem;
+        --s24: 6rem;
+        --s32: 8rem;
+        --s40: 10rem;
+        --s48: 12rem;
+        --s56: 14rem;
+        --s64: 16rem;
 
-    /* columns */
-    --col-12: repeat(12, 1fr);
-    --col-6: repeat(6, 1fr);
-    --col-5: repeat(5, 1fr);
-    --col-3: repeat(3, 1fr);
-    --col-2: repeat(2, 1fr);
+        /* containers */
+        --sm: 40rem;
+        --md: 48rem;
+        --lg: 64rem;
+        --xl: 80rem;
+
+        /* breakpoints */
+        --bp-phone: 375px;
+        --bp-tablet: 768px;
+        --bp-desktop: 1280px;
+
+        /* columns */
+        --col-12: repeat(12, 1fr);
+        --col-6: repeat(6, 1fr);
+        --col-5: repeat(5, 1fr);
+        --col-3: repeat(3, 1fr);
+        --col-2: repeat(2, 1fr);
+    }
 }
+
 h1 {
-    font-size: 5.625rem;
-    line-height: 5.625rem;
-    font-weight: 400;
+    font-size: 7.5rem;
+    line-height: 8.75rem;
+    font-weight: 600;
     color: var(--gray-900);
 }
 
@@ -85,7 +110,7 @@ h3 {
 body {
     font-size: 1rem;
     line-height: 1.375rem;
-    font-family: "thonburi";
+    font-family: "poppins";
 }
 
 sub {
@@ -101,7 +126,7 @@ sub {
         align-items: center;
         gap: 10px;
 
-        font-family: "Thonburi";
+        font-family: "poppins";
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
