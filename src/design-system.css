@@ -4,11 +4,6 @@
         src: url("../public/fonts/the-riskeys.otf") format("opentype");
     }
 
-    @font-face {
-        font-family: "poppins";
-        src: url("../public/fonts/poppins-semibold.ttf") format("truetype");
-    }
-
     /* latin-ext */
     @font-face {
         font-family: "Poppins";
